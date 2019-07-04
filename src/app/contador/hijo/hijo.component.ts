@@ -30,10 +30,4 @@ export class HijoComponent implements OnInit {
    this.store.dispatch(accion);
   }
 
-  resetNieto(event){
-    this.contador = event;
-    //this.cambioContador.emit(this.contador);
-
-  }
-
 }
