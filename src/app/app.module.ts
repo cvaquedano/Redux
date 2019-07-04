@@ -15,7 +15,7 @@ import { contadorReducer } from './contador/contador.reducer';
   ],
   imports: [
     BrowserModule,
-    StoreModule.forRoot({contdor: contadorReducer})
+    StoreModule.forRoot({contador: contadorReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]
